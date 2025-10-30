@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8fafc;
+}
+
+.sidebar-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: #0284c7;
+  color: white;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filter-header {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.filter-header:hover {
+  background-color: #e2e8f0;
+}
+
+.filter-icon {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 12px;
+}
+
