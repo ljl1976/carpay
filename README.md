@@ -1,6 +1,15 @@
-# 用车订单审计系统
+# 🚗 用车订单审计系统
 
 一个基于Web的用车订单审计系统，支持Excel文件上传、自动审计和结果下载。
+
+[![Node.js](https://img.shields.io/badge/Node.js-14+-green.svg)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE)
+[![EdgeOne Pages](https://img.shields.io/badge/Deploy-EdgeOne%20Pages-00ADD8.svg)](https://pages.edgeone.ai/)
+
+## 🌟 在线演示
+
+- **GitHub 仓库**: [https://github.com/你的用户名/carpay](https://github.com/你的用户名/carpay)
+- **在线部署**: 部署到 EdgeOne Pages 后更新此链接
 
 ## 功能特性
 
